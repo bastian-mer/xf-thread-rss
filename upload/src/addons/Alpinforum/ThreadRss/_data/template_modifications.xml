@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="thread_view" modification_key="alpinforum_threadrss_thread_view" description="Thread RSS: Feed-Link im Head und unter dem Thema" execution_order="10" enabled="1" action="preg_replace">
+    <find><![CDATA[/\z/]]></find>
+    <replace><![CDATA[
+<xf:head option="alpinforum_threadrss"><link rel="alternate" type="application/rss+xml" title="{{ phrase('alpinforum_threadrss_feed_for_x', {'title': $thread.title})|for_attr }}" href="{{ link('threads/index.rss', $thread) }}" /></xf:head>
+<div class="block-outer block-outer--after">
+	<div class="block-outer-opposite">
+		<a href="{{ link('threads/index.rss', $thread) }}" class="button button--link button--small" target="_blank" rel="nofollow noopener"><xf:fa icon="fa-rss" /> {{ phrase('alpinforum_threadrss_feed_link') }}</a>
+	</div>
+</div>]]></replace>
+  </modification>
+</template_modifications>

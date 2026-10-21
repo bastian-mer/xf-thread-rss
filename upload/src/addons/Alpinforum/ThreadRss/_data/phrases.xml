@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="alpinforum_threadrss_feed_description" version_id="1000070" version_string="1.0.0"><![CDATA[Neueste Beiträge im Thema „{title}“ – {board}]]></phrase>
+  <phrase title="alpinforum_threadrss_feed_for_x" version_id="1000070" version_string="1.0.0"><![CDATA[RSS-Feed für „{title}“]]></phrase>
+  <phrase title="alpinforum_threadrss_feed_link" version_id="1000070" version_string="1.0.0"><![CDATA[RSS-Feed dieses Themas]]></phrase>
+  <phrase title="alpinforum_threadrss_item_title" version_id="1000070" version_string="1.0.0"><![CDATA[#{number} von {username} – {title}]]></phrase>
+</phrases>
