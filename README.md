@@ -3,7 +3,7 @@
 Add-on für XenForo 2.3, das für **einzelne Themen** einen RSS-Feed bereitstellt. XenForo selbst bietet Feeds nur für ganze Foren an (`/forums/…/index.rss`). Dieses Add-on ergänzt dasselbe Schema für Threads.
 
 - **Add-on-ID:** `Alpinforum/ThreadRss`
-- **Version:** 1.0.0
+- **Version:** 1.0.0 Beta 1
 
 ## Funktionen
 
@@ -35,7 +35,7 @@ Add-on für XenForo 2.3, das für **einzelne Themen** einen RSS-Feed bereitstell
 ZIP aus dem Repository erzeugen:
 
 ```bash
-zip -r Alpinforum-ThreadRss-1.0.0.zip upload
+zip -r Alpinforum-ThreadRss-1.0.0-beta1.zip upload
 ```
 
 ## Verwendung
